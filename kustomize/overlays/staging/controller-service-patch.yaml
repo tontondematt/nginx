@@ -12,4 +12,3 @@ metadata:
     app.kubernetes.io/part-of: zouzou
     app.kubernetes.io/managed-by: zouzou
     app.kubernetes.io/component: zouzou
-  name: zouzou
