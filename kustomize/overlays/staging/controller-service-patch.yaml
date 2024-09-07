@@ -1,0 +1,15 @@
+---
+# Source: ingress-nginx/templates/controller-service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+  labels:
+    helm.sh/chart: zouzou
+    app.kubernetes.io/name: zouzou
+    app.kubernetes.io/instance: zouzou
+    app.kubernetes.io/version: zouzou
+    app.kubernetes.io/part-of: zouzou
+    app.kubernetes.io/managed-by: zouzou
+    app.kubernetes.io/component: zouzou
+  name: zouzou
